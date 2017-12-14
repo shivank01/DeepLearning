@@ -1,2 +1,12 @@
-# DeepLearning
-This contains the codes of deep neural network on different datasets.
+# **DeepLearning**
+This contains the codes of deep neural network on different datasets. It contains some codes of tutorial by sentdex.
+
+## **mnist_tensorflow.py**
+In this code we have made a deep neural network having three hidden layers using tensorflow.After this we train our
+model on mnist dataset which contains images of numbers(0-9) of 28*28 pixels.We got accuracy of ~95%.
+
+## **create_sentiment_featuresets.py**
+In this code we deal with the realistic dataset.In this we are converting the data into vectors which we can train in our neural network made in mnist_tensorflow.py .
+
+## **sentiment_neural_network.py**
+In this code we use the vectors made in create_sentiment_featuresets.py and neural network of mnist_tensorflow.py.In this we got accuracy of ~68%. It has so low accuracy because of very less data.It can achieve high accuracy if we have larger dataset. 

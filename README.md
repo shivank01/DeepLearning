@@ -32,5 +32,3 @@ This contains the codes of deep neural network on different datasets using tflea
 
 ### tflearn_convnet_mnist.py
 In this code I have trained the convolution neural network on mnist dataset and got the accuracy ~98%.
-
-It contains some codes of tutorial by sentdex.
